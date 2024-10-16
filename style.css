@@ -1,35 +1,63 @@
-* {
-    box-sizing: border-box;
+/* Pagrindiniai nustatymai */
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 10px;
+/* Navigacijos juosta */
+.header {
+    background-color: #cccccc;
     padding: 10px;
-    max-width: 1000px;
 }
 
-.grid-item {
-    background-color: #fff;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
+.nav {
+    display: flex;
+    align-items: center;
 }
 
-.grid-item img {
-    width: 100%;
-    height: auto;
-    display: block;
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Konteineris */
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Katės nuotrauka */
+.cat {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+
+/* Šuns nuotrauka */
+.dog {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+}
+
+/* Pagrindinis rėmelis su taškuotu kraštu */
+.dotted-box {
+    width: 400px;
+    height: 200px;
+    border: 5px dotted green;
+    margin: 150px auto;
 }
