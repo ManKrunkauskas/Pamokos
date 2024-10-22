@@ -1,0 +1,115 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #ffffff;
+    color:#4a148c;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    background-color: #4a148c;
+    padding:10px;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a.active {
+    background-color: #3a075b;
+    padding:5px 15px;
+    border-radius: 20px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Section title */
+  .section-title {
+    text-align: center;
+    padding: 2rem 0;
+    color: #4a148c;
+    font-size: 1.5rem;
+  }
+  
+  /* Pet grid */
+  .pets-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .pet {
+    text-align: left;
+  }
+  
+  .pet img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .pet h3 {
+    margin: 0.5rem 0;
+    color: #4a148c;
+  }
+  
+  .pet p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Media Query for screens larger than 768px */
+  @media (min-width: 768px) {
+    .pets-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
