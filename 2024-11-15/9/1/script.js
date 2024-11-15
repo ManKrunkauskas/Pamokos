@@ -1,5 +1,5 @@
 function is_string(input) {
-  return typeof input === "string" || input instanceof String;
+  return typeof input === "string";
 }
 
 console.log(is_string("w3resource"));
