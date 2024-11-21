@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div>
+      <h1>Counter Page</h1>
       <CounterDisplay count={count} />
       <CounterButton increment={incrementCount} />
     </div>
