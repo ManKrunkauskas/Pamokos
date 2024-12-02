@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "3619",
+      "title": "Altorių šešėly",
+      "author": "Vincas Mykolaitis Putinas",
+      "category": "Romanas",
+      "price": "5",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1376223033i/2640758.jpg",
+      "reserved": false
+    },
+    {
+      "id": "ce37",
+      "title": "Dievų Miškas",
+      "author": "Balys Sruoga",
+      "category": "Romanas",
+      "price": "6",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1329418473i/2638736.jpg",
+      "reserved": false
+    }
+  ]
+}
